@@ -1,7 +1,17 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+	"log"
+)
 
 func main() {
-	fmt.Println("General Artifactory Boss")
+	log.Println("Tidying up")
+	Initialize()
+  storage := GetRepositories(true)
+  
+  //&mt.Println(&storage)
+  fmt.Printf("%+v\n", storage) 
+ 
+
 }
