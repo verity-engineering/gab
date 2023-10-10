@@ -1,0 +1,11 @@
+{
+ "repos": [
+    {
+      "repo": "courtsandjustice-nuget-local",
+      "backup": "courtsandjustice-nuget-archive",
+      "release_retention": 20,
+      "prerelease_retention": 20,
+      "retention_months": 12
+    }
+  ]
+}
